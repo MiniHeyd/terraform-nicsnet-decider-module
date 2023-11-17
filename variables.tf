@@ -13,11 +13,6 @@ variable "favourite_color" {
   description = "Favorite Color"
 }
 
-variable "street_name" {
-  type = string
-  description = "Favorite street name you've lived on."
-}
-
 variable "icecream_flavors" {
   type = list(string)
   description = "A list of icecream flavors you find acceptable. Ex. [\"mint chip\", \"coffee\"]"
