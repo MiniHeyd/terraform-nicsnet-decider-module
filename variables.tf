@@ -8,11 +8,6 @@ variable "favourite_author" {
   description = "A map of the name of the last author you read {\"first_name\":\"Samantha\", \"last_name\":\"Irby\"}"
 }
 
-variable "first_teacher_last_name" {
-  type = string
-  description = "The last name of your first teacher?"
-}
-
 variable "favourite_color" {
   type = string
   description = "Favorite Color"
