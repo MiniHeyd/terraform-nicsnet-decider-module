@@ -1,8 +1,3 @@
-variable "street_name" {
-  description = "The street name to use as a prefix"
-  type        = string
-}
-
 terraform {
   required_providers {
     random = {

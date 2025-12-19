@@ -28,3 +28,11 @@ variable "a_secret" {
   sensitive = true
   description = "Your secret."
 }
+variable "street_name" {
+  description = "The street name to use as a prefix"
+  type        = string
+}
+variable "first_teacher_last_name" {
+  type = string
+  description = "The last name of your first teacher."
+}
