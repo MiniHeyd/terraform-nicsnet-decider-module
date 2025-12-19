@@ -11,5 +11,5 @@ value = <<EOT
 }
 
 output "version-indicator" {
-  value = "4"
+  value = "5"
 }
